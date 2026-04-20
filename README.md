@@ -22,7 +22,8 @@ This project builds and compares two NLP classification pipelines to distinguish
 ## 📁 Repository Structure
 
 ```
-├── NLP.py        # Main Python script
+├── NLP.ipynb     # Jupyter Notebook (interactive, with outputs)
+├── NLP.py        # Python script (converted from notebook)
 ├── spam.csv      # Dataset
 └── README.md
 ```
@@ -92,6 +93,12 @@ nltk.download('wordnet')
 ### Run the Script
 ```bash
 python NLP.py
+```
+
+### Run the Notebook
+
+```bash
+jupyter notebook NLP.ipynb
 ```
 
 ---
